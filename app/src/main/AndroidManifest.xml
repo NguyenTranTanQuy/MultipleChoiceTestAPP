@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MultipleChoiceTestAPP"
         tools:targetApi="31">
         <activity
+            android:name=".activities.TopicSet"
+            android:exported="false" />
+        <activity
             android:name=".activities.Loading"
             android:exported="false" />
         <activity
